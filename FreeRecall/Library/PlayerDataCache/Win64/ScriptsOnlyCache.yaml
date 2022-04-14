@@ -7,8 +7,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -45,23 +43,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11710}
+      Script: {instanceID: 11708}
     - Class: 114
-      Script: {instanceID: 11770}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 12548}
+      Script: {instanceID: 12546}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13676}
     - Class: 114
-      Script: {instanceID: 13804}
+      Script: {instanceID: 13802}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 14370}
     - Class: 114
-      Script: {instanceID: 15112}
+      Script: {instanceID: 15110}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -96,23 +94,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11710}
+      Script: {instanceID: 11708}
     - Class: 114
-      Script: {instanceID: 11770}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 12130}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12548}
+      Script: {instanceID: 12546}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13804}
+      Script: {instanceID: 13802}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 14370}
     - Class: 114
-      Script: {instanceID: 15112}
+      Script: {instanceID: 15110}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -638,4 +636,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/StartScreen.unity
   - Assets/FreeRecallScene.unity
-  playerPath: C:/Users/zboogaart/Documents/FreeRecallDraft3/FreeRecall.exe
+  playerPath: C:/Users/zboogaart/Documents/FreeRecallGit/Builds/FreeRecall.exe
