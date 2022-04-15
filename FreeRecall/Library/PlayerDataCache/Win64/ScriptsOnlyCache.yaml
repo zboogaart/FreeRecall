@@ -7,6 +7,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -636,4 +638,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/StartScreen.unity
   - Assets/FreeRecallScene.unity
-  playerPath: C:/Users/zboogaart/Documents/FreeRecallGit/Builds/FreeRecall.exe
+  playerPath: C:/Users/zboogaart/Documents/FreeRecallGit/Builds/Windows/FreeRecall.exe
