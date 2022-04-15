@@ -1057,7 +1057,7 @@ public class FreeRecall : MonoBehaviour
               // file.WriteLine("Participant ID: " + participantID);
 
               //Could change to readerUsed.Count() and subtract wordStepUp
-              for(int i = lastWord; i < (wordStepUp + lastWord); i++)
+              for(int i = (readerUsed.Count() - wordStepUp); i < readerUsed.Count(); i++)
               {
                 file.WriteLine(readerUsed[i]);
               }
