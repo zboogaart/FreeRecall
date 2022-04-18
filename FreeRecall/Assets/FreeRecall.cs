@@ -893,19 +893,24 @@ public class FreeRecall : MonoBehaviour
       }else{
         mathFilledBool = false;
       }
-      if(inputFieldMethod.activeInHierarchy)
-      {
-        inputMethod.text = Regex.Replace(inputMethod.text, @"[^0-9]+", "");
-        inputMethod.text = inputMethod.text.Trim();
-        methodRating = int.Parse(inputMethod.text);
-        if(inputMethod.text.Trim() != "" && methodRating < 5 && methodRating > 0)
+      try{
+        if(inputFieldMethod.activeInHierarchy)
         {
-          methodFilledBool = true;
-        }else{
-          methodFilledBool = false;
-          inputMethod.text = "";
+          inputMethod.text = Regex.Replace(inputMethod.text, @"[^0-9]+", "");
+          inputMethod.text = inputMethod.text.Trim();
+          methodRating = int.Parse(inputMethod.text);
+          if(inputMethod.text.Trim() != "" && methodRating < 5 && methodRating > 0)
+          {
+            methodFilledBool = true;
+          }else{
+            methodFilledBool = false;
+            inputMethod.text = "";
+          }
         }
+      }catch(Exception e){
+        //Do nothing
       }
+
 
     }
     private void compare()
