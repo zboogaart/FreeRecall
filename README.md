@@ -1,6 +1,7 @@
 # FreeRecall Instructions
-*Author: Zach Boogaart
-Last Edited: 04/14/2022*
+*Author: Zach Boogaart*
+
+*Last Edited: 04/14/2022*
 ## Summary
 This is the FreeRecall task. The goal of the project is to determine how well people can remember a set list of words. The study is performed over 10 sessions on unique days for 2 hours each session.
 
