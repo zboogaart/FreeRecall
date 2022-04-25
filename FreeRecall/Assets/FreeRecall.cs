@@ -701,7 +701,7 @@ public class FreeRecall : MonoBehaviour
       //Ask for the user's rating of how well they used the autobiographical method
       inputFieldMethod.SetActive(true);
       methodSubmitButton.SetActive(true);
-      text.text = "How well did you use the method?\n\nEnter an answer 1-4.\n\n1 being you used the method well and 4 being you did not use the method well.";
+      text.text = "How well did you use the method?\n\nEnter an answer 1-4.\n\n1 being you did not use the method well and 4 being you used the method well.";
       yield return new WaitUntil(() => mathSubmitBool && methodFilledBool);
       inputMethod.text = inputMethod.text.Trim();
       methodRating = int.Parse(inputMethod.text);
